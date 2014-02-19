@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="utf-8"/>
+		<title>URL Shortener</title>
+		<link rel="stylesheet" href="/css/style.css"/> 
+	</head>
+	<body>
+		<div class="container">
+			<div class="content">
+				<center>
+					<h1>Let me shorten that for you.</h1>
+					<div class="form-group">	
+							<form action="" method="post"> 
+								URL: <input type="url" name="url">
+								<input id="submitButton" type="submit" value="Submit">
+							</form>
+							<% if submit %>
+								<br>
+								<p> <%= path %><%= url %> </p>
+							<% end %>
+					</div>
+				</center>
+			</div>
+		</div>
+	</body>
+</html>

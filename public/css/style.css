@@ -1,0 +1,24 @@
+body {
+	background-image: url('blu_stripes.png');
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+.content { 
+	bottom: 0;
+	height: 15em;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 35em;
+}
+
+p {
+	display: inline-block;
+	padding: 5px 15px;
+	background-color: white;
+	border: 2px solid;
+	border-radius: 25px;
+}
